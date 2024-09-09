@@ -30,5 +30,60 @@ Loops have two parts:the head-which contains the conditon to check before the co
 # print("meow")
 # print("meow")
 
-while True:
-    print("meow")
+
+# while True:
+#     print("meow")
+
+
+# count = 3
+
+# while count > 0:
+#     print("meow") 
+#     count = count - 1
+
+# print("Yay!!! You have broken out of the loop")
+
+# print("meow " * 3)
+# print("meow meow meow")
+
+# count = 3
+
+# while count > 0:
+#     print("#") 
+#     count = count - 1
+
+# for number in [0,10,3]:
+#     print("meow " * number)
+
+# for number in ["jhfj","ghfjh","O"]:
+#     print("meow ", number[0])
+
+# for number in ["jhfj","ghfjh","O"]:
+#     print("meow ", number[2])
+
+# for number in ["jhfj","ghfjh","O"]:
+#     print("meow " + number + "is a guy")
+
+# number = "Die" + " hard"
+# print(number)
+
+# for number in [6,6,6,6,6,6]:
+#     print("# " * number)
+    
+
+# for number in range(10000):
+#     print("# " * number)
+
+student = {"name": "Justice",
+          "occupation": "Data Annotator",
+          "Age": "28",
+          "Height": "6'1"
+          }
+
+# print(student["name"])
+
+# for data in student:
+#     print(data)
+
+for data in student:
+    print(student[data])
