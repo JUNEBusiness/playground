@@ -3,8 +3,16 @@
 
 #     If there is fuel:
 #         start the car
-#     if there is no fuel:
+#     elif there is no fuel:
 #         don't start the car
+
+# if food is iced:
+#   defrost
+# elif food is cold:
+#   microwave
+# elif food is warm:
+#   eat
+
 
 #     is there fuel?
 #     if "Yes":
@@ -12,10 +20,13 @@
 #     if "No":
 #         don't start the car
 
-#     if "Yes":
-#         print('start the car')
-#     if "No":
-#         print('don't start the car')
+# answer = input("Do you have fuel in your car? ")
+
+
+# if answer == "Yes":
+#     print('start the car')
+# if answer == "No":
+#     print("don't start the car")
 
 
 # answer = input("Will you be my friend: ").lower()
@@ -29,6 +40,42 @@
 # if answer == "maybe":
 #     print("I will wait for you to decide.")
 
+# answer = input("Will you be my friend: ").lower()
+
+# if answer == "yes":
+#     print("great! I would love to be your friend also!")
+# elif answer == "no":
+#     print("Ok! and I want to be your friend.")
+# else:
+#     print("I will wait for you to decide.")
+
+# y = int(input("What is the value of y? "))
+# x = int(input("What is the value of x? "))
+
+# if x > y:
+#     print("X is greater Y")
+# elif x < y:
+#     print("X is lesser Y")
+# elif x == y:
+#     print("X is equal to Y")
+
+# y = int(input("What is the value of y? "))
+# x = int(input("What is the value of x? "))
+
+# if x > y:
+#     print("X is greater Y")
+# elif x < y:
+#     print("X is lesser Y")
+# else:
+#     print("X is equal to Y")
+
+# y = int(input("What is the value of y? "))
+# x = int(input("What is the value of x? "))
+
+# if x > y or x < y:
+#     print("X is not equal to Y")
+# else:
+#     print("X is equal to Y")
 
 # y = input("What is the value of y? ")
 # x = input("What is the value of x? ")
