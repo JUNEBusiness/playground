@@ -20,7 +20,21 @@ to perform a repetitive task when a condition is met. Take for example the code 
 while True:
     run clean()
     wait 5 seconds
-    
+
+
+def deep_scan():
+    if virus or hack:
+        return True
+    else:
+        return False
+
+def clean():
+    return 'message: SYSTEM CLEARED FOR THREATS'
+
+
+while deep_scan():
+    run clean()
+    wait 5 seconds    
 Loops have two parts:the head-which contains the conditon to check before the code runs
 -and the body-which contains the action to be performed."""
 
@@ -35,11 +49,11 @@ Loops have two parts:the head-which contains the conditon to check before the co
 #     print("meow")
 
 
-# count = 3
+count = 3
 
-# while count > 0:
-#     print("meow") 
-#     count = count - 1
+while count > 0:
+    print("meow") 
+    # count = count - 1
 
 # print("Yay!!! You have broken out of the loop")
 
@@ -74,16 +88,16 @@ Loops have two parts:the head-which contains the conditon to check before the co
 # for number in range(10000):
 #     print("# " * number)
 
-student = {"name": "Justice",
-          "occupation": "Data Annotator",
-          "Age": "28",
-          "Height": "6'1"
-          }
+# student = {"name": "Justice",
+#           "occupation": "Data Annotator",
+#           "Age": "28",
+#           "Height": "6'1"
+#           }
 
 # print(student["name"])
 
 # for data in student:
 #     print(data)
 
-for data in student:
-    print(student[data])
+# for data in student:
+#     print(student[data])

@@ -6,12 +6,12 @@
 
 
 # There are about threee different types of loops in programming
-"""
+# """
 # 'For loop' 
 # example:
-# for letter in 'mango':
-#     if letter == 'g':
-#         print(letter)
+for letter in 'Alphabet':
+    if letter == 'g':
+        print(letter)
 # 'While loop'
 # example:
 # While True:
@@ -20,7 +20,7 @@
 #         break
 # 'Do While loop'
 # """
-['m', 'a', 'n', 'g', 'o']
+# ['m', 'a', 'n', 'g', 'o']
 
 # for letter in 'mango is the best fruit in the universe, although I have not travelled every where in the universe':
 #     # print(letter)
@@ -30,12 +30,12 @@
 #     print(letter)
 
 
-for number in [1234, 5678, 9, 17,  32, 12, 24, 84, 62]:
-    # print(number)
-    if number == '24':
-        # print(f"number:{number}")
-        break
-    print(number)
+# for number in [1234, 5678, 9, 17,  32, 12, 24, 84, 62]:
+#     # print(number)
+#     if number == '24':
+#         # print(f"number:{number}")
+#         break
+#     print(number)
 
 # while True:
 #     word = input('What is your command captain: ').lower()
