@@ -49,11 +49,11 @@ Loops have two parts:the head-which contains the conditon to check before the co
 #     print("meow")
 
 
-count = 3
+# count = 3
 
-while count > 0:
-    print("meow") 
-    # count = count - 1
+# while count > 0:
+#     print("meow") 
+#     count = count - 1
 
 # print("Yay!!! You have broken out of the loop")
 
@@ -66,11 +66,20 @@ while count > 0:
 #     print("#") 
 #     count = count - 1
 
-# for number in [0,10,3]:
-#     print("meow " * number)
+# number =  [0, 10, 3, 10]
+# print(number[3]) 
 
+
+# print("The first loop")
+# print()  
+# for index in [0, 10, 3, 10]:
+#     print("meow ", index)
+# print()
+# print()
+# print("The second loop")  
 # for number in ["jhfj","ghfjh","O"]:
-#     print("meow ", number[0])
+#     print("meow ", number)
+
 
 # for number in ["jhfj","ghfjh","O"]:
 #     print("meow ", number[2])
@@ -80,13 +89,22 @@ while count > 0:
 
 # number = "Die" + " hard"
 # print(number)
+# print("Die hard")
 
 # for number in [6,6,6,6,6,6]:
 #     print("# " * number)
-    
 
-# for number in range(10000):
+
+# print("The first loop")
+# print() 
+# for number in range(100):
 #     print("# " * number)
+# print()
+# print()
+# print("The second loop") 
+# for number in [0,1,2,3,4,5]:
+#     print("# " * number)    
+
 
 # student = {"name": "Justice",
 #           "occupation": "Data Annotator",
@@ -94,7 +112,7 @@ while count > 0:
 #           "Height": "6'1"
 #           }
 
-# print(student["name"])
+# print(student["Height"])
 
 # for data in student:
 #     print(data)
