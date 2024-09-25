@@ -119,3 +119,8 @@ Loops have two parts:the head-which contains the conditon to check before the co
 
 # for data in student:
 #     print(student[data])
+
+
+# password = input("Input Password: ")
+
+# print(password[5:-1])
