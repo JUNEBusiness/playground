@@ -28,6 +28,7 @@ fruits = ["Apple", "Mango", "Banana", 'Watermelon', "Orange", "Beetroot", 6]
 # for fruit in ["Apple", "Mango", "Banana", 'Watermelon', "Orange", "Beetroot", 6]:
 #     print(fruit)
 
-
+"""Lists are mutable i.e can be reassigned another element"""
+fruits[0] = "Plum"
 for fruit in fruits:
     print(fruit)

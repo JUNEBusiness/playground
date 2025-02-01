@@ -41,8 +41,6 @@
 # print(password1)
 
 
-
-
 # def cat():
 #     print("meow")
 #     return True
@@ -51,12 +49,18 @@
 # cat()
 
 number = int(input("How many times should the cat meow? "))
-'2'
-int('2')
+# '2'
+# int('2')
 
+# def cat(n):
+#     for i in range(n):
+#         print("meow")
+#     # streak = "meow " * n
+#     # return streak
+# cat(number)
 
 def cat(n):
-    streak = "meow " * n
+    streak = "meow \n" * n
     return streak
 
 
