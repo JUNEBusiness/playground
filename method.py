@@ -11,8 +11,8 @@
 # mouse_click = True
 # cursor_up = False///
 
-user_input = input("Give me any text to transform: ")
+# user_input = input("Give me any text to transform: ")
 
-user_input = user_input.replace("Nigeria", "The worse country in the world")
+# user_input = user_input.replace("Nigeria", "The worse country in the world")
 
-print(user_input)
+# print(user_input)
